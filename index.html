@@ -11,7 +11,9 @@
     <title>Sign-Up Form</title>
 </head>
 <body>
-    <div class="side-nav"></div>
+    <div class="side-nav">
+        <p>Cinnamon Rolls</p>
+    </div>
     <main class="main-body" id="main">
         <header class="top-section main-body">
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
@@ -22,17 +24,17 @@
             <h3>Let's do this!</h3>
             <form id="form" name="form" method="post" action="#">
                 <label for="">FIRST NAME</label>
-                <input type="text" name="f-name" id="first-name" placeholder="John">
+                <input type="text" name="f-name" id="first-name" placeholder="John" required>
                 <label for="">LAST NAME</label>
                 <input type="text" name="l-name" id="last-name" placeholder="Doe">
                 <label for="">EMAIL</label>
-                <input type="text" name="email" id="user-email" placeholder="you@example.com">
+                <input type="text" name="email" id="user-email" placeholder="you@example.com" required>
                 <label for="">PHONE NUMBER</label>
                 <input type="tel" name="number" id="user-number" placeholder="123-456-7890">
                 <label for="">PASSWORD</label>
-                <input type="password" name="password" id="user-password">
+                <input type="password" name="password" id="user-password" required>
                 <label for="">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password">
+                <input type="password" name="confirm-password" id="confirm-password" required>
             </form>
         </section>
         <section class="bottom-body main-body">
